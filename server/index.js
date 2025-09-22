@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGODB_URI = 'YOUR API KEY'
+const MONGODB_URI = 'YOUR MONGODB_URI'
 const DB_NAME = process.env.MONGODB_DB || 'learnoverse';
 const COLL = process.env.COLLECTION || 'videos';
 const YT_API_KEY = process.env.YT_API_KEY;
