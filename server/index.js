@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGODB_URI = 'mongodb+srv://Admin:Admin@clusterlearno.dr23lci.mongodb.net/learnoverse?retryWrites=true&w=majority'
+const MONGODB_URI = 'YOUR API KEY'
 const DB_NAME = process.env.MONGODB_DB || 'learnoverse';
 const COLL = process.env.COLLECTION || 'videos';
 const YT_API_KEY = process.env.YT_API_KEY;
